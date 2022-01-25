@@ -6,7 +6,7 @@ Installation
 
 Use case
 
-'''python
+```python
 from tt_package import DB_API
 import json
 import requests
@@ -20,4 +20,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-'''
+```
