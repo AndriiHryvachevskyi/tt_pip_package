@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['tt_pip_package'],
-    install_requires=['requests' 'nose', 'pytest'],
+    install_requires=['requests', 'nose', 'pytest'],
 )
