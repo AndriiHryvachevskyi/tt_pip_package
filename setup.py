@@ -8,7 +8,7 @@ setuptools.setup(
     version='0.0.1',
     author='Andrii Hryvachevskyi',
     author_email='andrii.hryvachevskyi@ringteam.com',
-    description='Test Tast PIP Package',
+    description='Test Task PIP Package',
     long_description=long_description,
     long_description_content_type="text/markdown",
     url='https://github.com/AndriiHryvachevskyi/tt_pip_package',
@@ -17,5 +17,5 @@ setuptools.setup(
     },
     license='MIT',
     packages=['tt_pip_package'],
-    install_requires=['requests'],
+    install_requires=['requests, nose, pytest'],
 )
